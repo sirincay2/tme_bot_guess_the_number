@@ -71,7 +71,7 @@ class Player(telepot.helper.ChatHandler):
         self.close()
 
 
-TOKEN = os.getenv('TOKEN')
+TOKEN = "1825127997:AAGsCaKlDqls_ivyqE3XvZmEdLl6nDkEACg"
 
 bot = telepot.DelegatorBot(TOKEN, [
     pave_event_space()(
